@@ -25,8 +25,6 @@ public class BitShiftExam2 {
 		byte byte4 = (byte) value;
 		int int4 = Byte.toUnsignedInt(byte4);
 		System.out.println("네 번째 바이트 부호 없는 값: " + int4);
-		
-		
 	}
 
 }
