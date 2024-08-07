@@ -8,6 +8,7 @@ public class BreakOutterExam {
 			for(char lower = 'a'; lower<='z'; lower++) {
 				System.out.println(upper + "-" + lower);
 				if(lower=='g') {
+//					Outter 블록을 빠져나가라~
 					break Outter;
 				}
 			}

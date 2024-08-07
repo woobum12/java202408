@@ -6,6 +6,8 @@ public class KeyControlExam {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+//		스캐너 생성
 		Scanner scanner = new Scanner(System.in);
 		boolean run = true;
 		int speed = 0;
@@ -16,6 +18,7 @@ public class KeyControlExam {
 			System.out.println("------------------");
 			System.out.print("선택: ");
 			
+//			스캐너값을 입력받아서 strNum변수에 값을 넣는다
 			String strNum = scanner.nextLine();
 			
 			if(strNum.equals("1")) {
