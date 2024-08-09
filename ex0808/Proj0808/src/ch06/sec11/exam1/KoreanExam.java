@@ -12,7 +12,7 @@ public class KoreanExam {
 		System.out.println(k1.name);
 		
 //		Final 필드는 값을 변경할 수 없음
-//		k1.nation = "USA"
+//		k1.nation = "USA";
 //		k1.ssn = "123-12-1234";
 		
 //		비 final 필드는 값 변경 가능

@@ -5,8 +5,10 @@ public class Puppy {
 	String model;
 	String color;
 	
-	public Puppy () {
+	public Puppy (String name, String model, String color) {
 		this.name = name;
+		this.model = model;
+		this.color = color;
 	}
 }
 	
