@@ -24,5 +24,9 @@ public class A {
 		B b = new B();
 		//로컬 객체 메소드 호출
 		b.method2();
+		
+		//로컬 변수 수정
+		//arg = 3;	//(x)
+		//var = 3;	//(x)
 	}
 }
