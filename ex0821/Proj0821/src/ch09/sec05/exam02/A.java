@@ -18,5 +18,22 @@ public class A {
 		void method() {
 			System.out.println("B-method");
 		}
+		
+		//B 인스턴스 메소드
+		void print() {
+			//B 객체의 필드와 메소드 사용
+			System.out.println(this.field);
+			this.method();
+			
+			//A 객체의 필드와 메소드 사용
+			System.out.println(A.this.field);
+			A.this.method();
+		}
+	}
+	
+	//A의 인스턴스 메소드
+	void useB() {
+		B b = new B();
+		b.print();
 	}
 }
